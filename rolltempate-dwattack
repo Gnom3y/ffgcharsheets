@@ -1,0 +1,21 @@
+<div class="sheet-rolltemplate-dwattack">
+    <table>
+        <tr>
+            <th>{{rollname}}</th>
+        </tr>
+        <tr>
+            <td><span class="tcat">Attack: </span>{{attack}} degrees of success!</td>
+        </tr>
+        {{#damage}}
+        <tr>
+            <td><span class="tcat">Damage: </span>{{damage}}</td>
+		</tr>
+        <tr>
+            <td><span class="tcat">Penetration: </span>{{penetration}}</td>
+        </tr>
+		<tr>
+			<td><span class="tcat">Type: </span>{{dmgtype}}</td>
+        </tr>
+        {{/damage}}
+    </table>
+</div>
